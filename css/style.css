@@ -93,7 +93,7 @@ main {
   width: 20rem;
   height: 20rem;
   margin: 0 auto;
-  background-image: url(/assets/img/Bitcoin.svg);
+  background-image: url("/assets/img/Bitcoin.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -181,13 +181,13 @@ main {
   width: 1.5rem;
   height: 1.5rem;
   margin-left: 1rem;
-  background-image: url(/assets/icons/trending-down.svg);
+  background-image: url("/assets/icons/trending-down.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .main-currency-table .currency-table--container .up {
-  background-image: url(/assets/icons/trending-up.svg);
+  background-image: url("/assets/icons/trending-up.svg");
 }
 .main-currency-table .currency-table--date {
   width: 90%;
@@ -264,13 +264,13 @@ main {
   width: 1.5rem;
   height: 1.5rem;
   margin-left: 1rem;
-  background-image: url(/assets/icons/trending-down.svg);
+  background-image: url(none);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .main-currency-table-comisiones .currency-table--container .up {
-  background-image: url(/assets/icons/trending-up.svg);
+  background-image: url(none);
 }
 .main-currency-table-comisiones .currency-table--date {
   width: 90%;
@@ -313,6 +313,7 @@ main {
   height: auto;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 2rem;
 }
 .main-product-detail .product-detail--title h2 {
   font-weight: bold;
@@ -326,6 +327,415 @@ main {
   font-size: 1.4rem;
   line-height: 1.8rem;
   color: #808080;
+}
+
+.product-detail--cards-1 {
+  width: 100%;
+  min-width: 28.8rem;
+  max-width: 40rem;
+  min-height: 15rem;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  background-color: #282623;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.16);
+}
+.product-detail--cards-1 .clock {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  background-image: url("/assets/icons/clock.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-detail--cards-1 .product--card-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: #FFF;
+}
+.product-detail--cards-1 .product--card-body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.product-detail--cards-2 {
+  width: 100%;
+  min-width: 28.8rem;
+  max-width: 40rem;
+  min-height: 15rem;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  background-color: #282623;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.16);
+}
+.product-detail--cards-2 .clock {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  background-image: url("/assets/icons/eye.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-detail--cards-2 .product--card-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: #FFF;
+}
+.product-detail--cards-2 .product--card-body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.product-detail--cards-3 {
+  width: 100%;
+  min-width: 28.8rem;
+  max-width: 40rem;
+  min-height: 15rem;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  background-color: #282623;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.16);
+}
+.product-detail--cards-3 .clock {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  background-image: url("/assets/icons/dollar-sign.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-detail--cards-3 .product--card-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: #FFF;
+}
+.product-detail--cards-3 .product--card-body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.product-detail--cards-4 {
+  width: 100%;
+  min-width: 28.8rem;
+  max-width: 40rem;
+  min-height: 15rem;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  background-color: #282623;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.16);
+}
+.product-detail--cards-4 .clock {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  background-image: url("/assets/icons/check-circle.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-detail--cards-4 .product--card-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: #FFF;
+}
+.product-detail--cards-4 .product--card-body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.bitcoin-img-container {
+  width: 100%;
+  min-width: 32rem;
+  height: 50vh;
+  background-image: url("/assets/img/bitcoinbaby2x.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bitcoin-img-container h2 {
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: #FFF;
+  padding-top: 6.5rem;
+}
+
+.main-plans-container {
+  width: 100%;
+  min-width: 32rem;
+  padding-bottom: 7rem;
+  text-align: center;
+  background-color: #FAF8F7;
+}
+.main-plans-container .plans--title {
+  width: 90%;
+  min-width: 28.8rem;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+.main-plans-container .plans--title h2 {
+  padding-top: 5rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #282623;
+}
+.main-plans-container .plans--title p {
+  padding-top: 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #757575;
+}
+
+.plans-container--card1 {
+  position: relative;
+  width: 70%;
+  min-width: 23rem;
+  max-width: 30rem;
+  height: 25rem;
+  margin: 5rem auto 0;
+  padding: 0 1.5rem;
+  background-color: #FFF;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(89, 73, 30, 0.16);
+  padding-top: 4rem;
+}
+.plans-container--card1 .recomendado {
+  position: absolute;
+  font-weight: bold;
+  width: 10.2rem;
+  height: 3.1rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FFF;
+  background-color: #F7931A;
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  top: -1.5rem;
+  left: calc(50% - 10.2rem/2);
+}
+.plans-container--card1 .plan-card--title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #282623;
+}
+.plans-container--card1 .plan-card--price {
+  padding: 0.5rem 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 6.3rem;
+  color: #282623;
+}
+.plans-container--card1 .plan-card--price span {
+  vertical-align: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.plans-container--card1 .plan-card--saving {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #757575;
+}
+.plans-container--card1 .plan-card--ca {
+  width: 15.1rem;
+  height: 4.8rem;
+  margin-top: 2rem;
+  background-color: #FAF8F7;
+  border-radius: 0.4rem;
+  border: 0.2rem solid #F7931A;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #201E1C;
+  font-family: "DM Sans", sans-serif;
+}
+.plans-container--card1 .plan-card--ca span {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-image: url("/assets/icons/orange-right-arrow.svg");
+  vertical-align: text-bottom;
+}
+
+.plans-container--card2 {
+  position: relative;
+  width: 70%;
+  min-width: 23rem;
+  max-width: 30rem;
+  height: 25rem;
+  margin: 5rem auto 0;
+  padding: 0 1.5rem;
+  background-color: #FFF;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(89, 73, 30, 0.16);
+  padding-top: 4rem;
+}
+.plans-container--card2 .recomendado {
+  position: absolute;
+  font-weight: bold;
+  width: 10.2rem;
+  height: 3.1rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FFF;
+  background-color: #1A9AF7;
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  top: -1.5rem;
+  left: calc(50% - 10.2rem/2);
+}
+.plans-container--card2 .plan-card--title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #282623;
+}
+.plans-container--card2 .plan-card--price {
+  padding: 0.5rem 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 6.3rem;
+  color: #282623;
+}
+.plans-container--card2 .plan-card--price span {
+  vertical-align: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.plans-container--card2 .plan-card--saving {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #757575;
+}
+.plans-container--card2 .plan-card--ca {
+  width: 15.1rem;
+  height: 4.8rem;
+  margin-top: 2rem;
+  background-color: #1A9AF7;
+  border-radius: 0.4rem;
+  border: 0.2rem solid #F7931A;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #201E1C;
+  font-family: "DM Sans", sans-serif;
+}
+.plans-container--card2 .plan-card--ca span {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-image: url("/assets/icons/orange-right-arrow.svg");
+  vertical-align: text-bottom;
+}
+
+.plans-container--card3 {
+  position: relative;
+  width: 70%;
+  min-width: 23rem;
+  max-width: 30rem;
+  height: 25rem;
+  margin: 5rem auto 0;
+  padding: 0 1.5rem;
+  background-color: #201E1C;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(89, 73, 30, 0.16);
+  padding-top: 4rem;
+}
+.plans-container--card3 .recomendado {
+  position: absolute;
+  font-weight: bold;
+  width: 10.2rem;
+  height: 3.1rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FFF;
+  background-color: #707070;
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  top: -1.5rem;
+  left: calc(50% - 10.2rem/2);
+}
+.plans-container--card3 .plan-card--title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #282623;
+}
+.plans-container--card3 .plan-card--price {
+  padding: 0.5rem 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 6.3rem;
+  color: #282623;
+}
+.plans-container--card3 .plan-card--price span {
+  vertical-align: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.plans-container--card3 .plan-card--saving {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #757575;
+}
+.plans-container--card3 .plan-card--ca {
+  width: 15.1rem;
+  height: 4.8rem;
+  margin-top: 2rem;
+  background-color: #FAF8F7;
+  border-radius: 0.4rem;
+  border: 0.2rem solid #F7931A;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #201E1C;
+  font-family: "DM Sans", sans-serif;
+}
+.plans-container--card3 .plan-card--ca span {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-image: url("/assets/icons/orange-right-arrow.svg");
+  vertical-align: text-bottom;
+}
+
+.plans-container--slider {
+  display: flex;
+  height: 31.6rem;
+  overflow-x: scroll;
 }
 
 /*# sourceMappingURL=style.css.map */
