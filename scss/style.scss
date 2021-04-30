@@ -17,6 +17,7 @@ $just-white: #FFF;
     margin: 0 auto;
     font-family: "Inter",sans-serif;
 
+
     .currency-table--title{
 
         width: 70%;
@@ -452,8 +453,9 @@ main{
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     scroll-snap-align: center;
-    margin-left: calc(50% - 12rem);
-    margin-right: calc(50% - 12rem);
+    // margin-left: calc(50% - 12rem);
+    // margin-right: calc(50% - 12rem);
+    scroll-snap-align: center;
     
 
 }
@@ -620,8 +622,8 @@ main{
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    margin-left: calc(50% - 12rem);
-    margin-right: calc(50% - 12rem);
+    // margin-left: calc(50% - 12rem);
+    // margin-right: calc(50% - 12rem);
 
 }
 
@@ -687,4 +689,5 @@ footer{
     }
 
 }
+
 

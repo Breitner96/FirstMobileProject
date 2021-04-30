@@ -130,8 +130,7 @@ main {
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
   scroll-snap-align: center;
-  margin-left: calc(50% - 12rem);
-  margin-right: calc(50% - 12rem);
+  scroll-snap-align: center;
 }
 
 .main-currency-table {
@@ -533,8 +532,6 @@ main {
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
-  margin-left: calc(50% - 12rem);
-  margin-right: calc(50% - 12rem);
 }
 
 .plans-container--card1 {

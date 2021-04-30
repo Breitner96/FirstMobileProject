@@ -1,0 +1,35 @@
+.product-cards--container{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 120rem;
+    margin: 0 auto;
+    flex-grow: 1;
+
+    .product-detail--cards-1{      
+        max-width: 50rem;
+        height:20rem;}
+    .product-detail--cards-2{     
+        max-width: 50rem;
+        height:20rem;
+    }
+    .product-detail--cards-3{
+        max-width: 50rem;
+        height:20rem;
+    }
+
+    .product-detail--cards-4{
+
+       max-width: 50rem;
+       height:20rem;
+
+    }
+
+}
+
+.plans-container--slider{
+
+
+    justify-content: center;
+
+}
